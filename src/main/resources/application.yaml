@@ -13,4 +13,7 @@ spring:
     url: jdbc:mysql://localhost:3306/crops
     username: root
     password: Nave@0596
+    # driver-class-name: com.mysql.cj.jdbc.Driver
     driver-class-name: com.mysql.cj.jdbc.Driver
+#     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+# spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
