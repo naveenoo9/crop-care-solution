@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: crop-care-solution
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      "[hibernate.format_sql]": true
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  datasource:
+    url: jdbc:mysql://localhost:3306/crops
+    username: root
+    password: Nave@0596
+    driver-class-name: com.mysql.cj.jdbc.Driver
